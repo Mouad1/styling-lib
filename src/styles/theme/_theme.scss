@@ -1,0 +1,50 @@
+@use "@angular/material" as mat;
+@use "../base/palettes" as palettes;
+@use "../utils/mixins" as mixins;
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
+
+@include mat.core();
+
+$asn-kraken-web-primary: mat.define-palette(palettes.$primary-palette, 800);
+$asn-kraken-web-accent: mat.define-palette(palettes.$secondary-palette, 800);
+$asn-kraken-web-warn: mat.define-palette(palettes.$warn-palette, 900);
+
+$kraken-typography: mat.define-typography-config(
+  $font-family: "Roboto, sans-serif",
+  $headline-1: mat.define-typography-level(96px, 112.5px, 300, "Roboto"),
+  $headline-2: mat.define-typography-level(60px, 70.31px, 300, "Roboto"),
+  $headline-3: mat.define-typography-level(48px, 56.25px, 400, "Roboto"),
+  $headline-4: mat.define-typography-level(34px, 39.84px, 400, "Roboto"),
+  $subtitle-1: mat.define-typography-level(16px, 18.75px, 400),
+  $subtitle-2: mat.define-typography-level(16px, 18.75px, 500),
+  $body-1: mat.define-typography-level(16px, 18.75px, 400),
+  $body-2: mat.define-typography-level(14px, 16.41px, 400),
+  $caption: mat.define-typography-level(12px, 14.06px, 400),
+  $button: mat.define-typography-level(14px, 16.41px, 500),
+  $overline: mat.define-typography-level(12px, 14.06px, 400),
+);
+
+$asn-kraken-web-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $asn-kraken-web-primary,
+      accent: $asn-kraken-web-accent,
+      warn: $asn-kraken-web-warn,
+    ),
+    typography: $kraken-typography,
+    // mat.define-typography-config(),
+    density: 0,
+  )
+);
+
+@include mat.all-component-themes($asn-kraken-web-theme);
+
+$button-typography: mat.define-typography-config(
+  $button:
+    mat.define-typography-level(
+      $font-size: 12px,
+      $font-weight: 500,
+    ),
+);
+
+@include mat.typography-hierarchy($button-typography);

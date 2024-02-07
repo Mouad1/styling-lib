@@ -1,0 +1,319 @@
+$gray-900: #232323;
+$gray-800: #444444;
+$gray-700: #636363;
+$gray-600: #787878;
+$gray-500: #a1a1a1;
+$gray-400: #c0c0c0;
+$gray-300: #e2e2e2;
+$gray-200: #f0f0f0;
+$gray-100: #f6f6f6;
+$gray-50: #fafafa;
+$white: #ffffff;
+$black: #000000;
+
+$abyss-blue-900: #00283a;
+$abyss-blue-800: #0c3c51;
+$abyss-blue-700: #1b4f66;
+$abyss-blue-600: #2a627c;
+$abyss-blue-500: #37708d;
+$abyss-blue-400: #5485a0;
+$abyss-blue-300: #6f9bb4;
+$abyss-blue-200: #93b8ce;
+$abyss-blue-100: #b5d6e8;
+$abyss-blue-50: #d9efff;
+
+$ocean-blue-900: #245559;
+$ocean-blue-800: #2c7783;
+$ocean-blue-700: #318b9b;
+$ocean-blue-600: #36a0b4;
+$ocean-blue-500: #3aafc7;
+$ocean-blue-400: #43bbcf;
+$ocean-blue-300: #5ac6d9;
+$ocean-blue-200: #84d7e5;
+$ocean-blue-100: #b3e7ef;
+$ocean-blue-50: #e0f5f9;
+
+$emerald-green-900: #155643;
+$emerald-green-800: #1c725e;
+$emerald-green-700: #21826c;
+$emerald-green-600: #25937c;
+$emerald-green-500: #29a089;
+$emerald-green-400: #3baf9a;
+$emerald-green-300: #5abeac;
+$emerald-green-200: #88d1c3;
+$emerald-green-100: #b6e3db;
+$emerald-green-50: #e2f3f1;
+
+$picotee-blue-900: #23218d;
+$picotee-blue-800: #392c9b;
+$picotee-blue-700: #4532a3;
+$picotee-blue-600: #533aad;
+$picotee-blue-500: #5c3fb3;
+$picotee-blue-400: #755abe;
+$picotee-blue-300: #8d77ca;
+$picotee-blue-200: #ae9ed8;
+$picotee-blue-100: #cec4e7;
+$picotee-blue-50: #ece7f5;
+
+$copper-red-900: #cd6a42;
+$copper-red-800: #dc7d46;
+$copper-red-700: #e58a4a;
+$copper-red-600: #ed974f;
+$copper-red-500: #f2a253;
+$copper-red-400: #f5ae5e;
+$copper-red-300: #f8bc74;
+$copper-red-200: #f9cf99;
+$copper-red-100: #fbe2c0;
+$copper-red-50: #fdf4e6;
+
+$android-green-900: #757437;
+$android-green-800: #909a43;
+$android-green-700: #a0b14a;
+$android-green-600: #b0c753;
+$android-green-500: #bcd95a;
+$android-green-400: #c4de6f;
+$android-green-300: #cee587;
+$android-green-200: #dbeda7;
+$android-green-100: #e9f3c9;
+$android-green-50: #f6fbea;
+
+$forest-green-900: #006416;
+$forest-green-800: #00832b;
+$forest-green-700: #0b9436;
+$forest-green-600: #1da642;
+$forest-green-500: #28b54b;
+$forest-green-400: #50c167;
+$forest-green-300: #73cc82;
+$forest-green-200: #9ddaa6;
+$forest-green-100: #c4e8c9;
+$forest-green-50: #e6f6e9;
+
+$rusty-red-900: #b01830;
+$rusty-red-800: #bf233b;
+$rusty-red-700: #cc2a42;
+$rusty-red-600: #de3349;
+$rusty-red-500: #ee3c4c;
+$rusty-red-400: #e84f62;
+$rusty-red-300: #dc717f;
+$rusty-red-200: #e899a2;
+$rusty-red-100: #f9cdd6;
+$rusty-red-50: #fcebf0;
+
+$minion-yellow-900: #e07515;
+$minion-yellow-800: #e69c23;
+$minion-yellow-700: #e9b32b;
+$minion-yellow-600: #ecca33;
+$minion-yellow-500: #eddc38;
+$minion-yellow-400: #f0e154;
+$minion-yellow-300: #f2e672;
+$minion-yellow-200: #f6ed99;
+$minion-yellow-100: #f9f4c2;
+$minion-yellow-50: #fdfbe6;
+
+$amethyst-blue-900: #00517f;
+$amethyst-blue-800: #0f6f9e;
+$amethyst-blue-700: #1180b2;
+$amethyst-blue-600: #1b92c4;
+$amethyst-blue-500: #22a0d2;
+$amethyst-blue-400: #3aadd7;
+$amethyst-blue-300: #57bbdc;
+$amethyst-blue-200: #82cee6;
+$amethyst-blue-100: #b2e2f0;
+$amethyst-blue-50: #e1f4f9;
+
+$primary-900: $abyss-blue-900;
+$primary-800: $abyss-blue-800;
+$primary-700: $abyss-blue-700;
+$primary-600: $abyss-blue-600;
+$primary-500: $abyss-blue-500;
+$primary-400: $abyss-blue-400;
+$primary-300: $abyss-blue-300;
+$primary-200: $abyss-blue-200;
+$primary-100: $abyss-blue-100;
+$primary-50: $abyss-blue-50;
+
+$secondary-900: $ocean-blue-900;
+$secondary-800: $ocean-blue-800;
+$secondary-700: $ocean-blue-700;
+$secondary-600: $ocean-blue-600;
+$secondary-500: $ocean-blue-500;
+$secondary-400: $ocean-blue-400;
+$secondary-300: $ocean-blue-300;
+$secondary-200: $ocean-blue-200;
+$secondary-100: $ocean-blue-100;
+$secondary-50: $ocean-blue-50;
+
+$primary: $abyss-blue-800;
+$secondary: $ocean-blue-800;
+$cable: $emerald-green-200;
+$wet: $picotee-blue-300;
+$dry: $copper-red-800;
+$hardware: $android-green-600;
+$success: $emerald-green-700;
+$danger: $rusty-red-700;
+$warning: $minion-yellow-700;
+$information: $amethyst-blue-300;
+
+:root {
+  --gray-900: #{$gray-900};
+  --gray-800: #{$gray-800};
+  --gray-700: #{$gray-700};
+  --gray-600: #{$gray-600};
+  --gray-500: #{$gray-500};
+  --gray-400: #{$gray-400};
+  --gray-300: #{$gray-300};
+  --gray-200: #{$gray-200};
+  --gray-100: #{$gray-100};
+  --gray-50: #{$gray-50};
+
+  --white: #{$white};
+  --black: #{$black};
+
+  --abyss-blue-900: #{$abyss-blue-900};
+  --abyss-blue-800: #{$abyss-blue-800};
+  --abyss-blue-700: #{$abyss-blue-700};
+  --abyss-blue-600: #{$abyss-blue-600};
+  --abyss-blue-500: #{$abyss-blue-500};
+  --abyss-blue-400: #{$abyss-blue-400};
+  --abyss-blue-300: #{$abyss-blue-300};
+  --abyss-blue-200: #{$abyss-blue-200};
+  --abyss-blue-100: #{$abyss-blue-100};
+  --abyss-blue-50: #{$abyss-blue-50};
+
+  --ocean-blue-900: #{$ocean-blue-900};
+  --ocean-blue-800: #{$ocean-blue-800};
+  --ocean-blue-700: #{$ocean-blue-700};
+  --ocean-blue-600: #{$ocean-blue-600};
+  --ocean-blue-500: #{$ocean-blue-500};
+  --ocean-blue-400: #{$ocean-blue-400};
+  --ocean-blue-300: #{$ocean-blue-300};
+  --ocean-blue-200: #{$ocean-blue-200};
+  --ocean-blue-100: #{$ocean-blue-100};
+  --ocean-blue-50: #{$ocean-blue-50};
+
+  --emerald-green-900: #{$emerald-green-900};
+  --emerald-green-800: #{$emerald-green-800};
+  --emerald-green-700: #{$emerald-green-700};
+  --emerald-green-600: #{$emerald-green-600};
+  --emerald-green-500: #{$emerald-green-500};
+  --emerald-green-400: #{$emerald-green-400};
+  --emerald-green-300: #{$emerald-green-300};
+  --emerald-green-200: #{$emerald-green-200};
+  --emerald-green-100: #{$emerald-green-100};
+  --emerald-green-50: #{$emerald-green-50};
+
+  --picotee-blue-900: #{$picotee-blue-900};
+  --picotee-blue-800: #{$picotee-blue-800};
+  --picotee-blue-700: #{$picotee-blue-700};
+  --picotee-blue-600: #{$picotee-blue-600};
+  --picotee-blue-500: #{$picotee-blue-500};
+  --picotee-blue-400: #{$picotee-blue-400};
+  --picotee-blue-300: #{$picotee-blue-300};
+  --picotee-blue-200: #{$picotee-blue-200};
+  --picotee-blue-100: #{$picotee-blue-100};
+  --picotee-blue-50: #{$picotee-blue-50};
+
+  --copper-red-900: #{$copper-red-900};
+  --copper-red-800: #{$copper-red-800};
+  --copper-red-700: #{$copper-red-700};
+  --copper-red-600: #{$copper-red-600};
+  --copper-red-500: #{$copper-red-500};
+  --copper-red-400: #{$copper-red-400};
+  --copper-red-300: #{$copper-red-300};
+  --copper-red-200: #{$copper-red-200};
+  --copper-red-100: #{$copper-red-100};
+  --copper-red-50: #{$copper-red-50};
+
+  --android-green-900: #{$android-green-900};
+  --android-green-800: #{$android-green-800};
+  --android-green-700: #{$android-green-700};
+  --android-green-600: #{$android-green-600};
+  --android-green-500: #{$android-green-500};
+  --android-green-400: #{$android-green-400};
+  --android-green-300: #{$android-green-300};
+  --android-green-200: #{$android-green-200};
+  --android-green-100: #{$android-green-100};
+  --android-green-50: #{$android-green-50};
+
+  --forest-green-900: #{$forest-green-900};
+  --forest-green-800: #{$forest-green-800};
+  --forest-green-700: #{$forest-green-700};
+  --forest-green-600: #{$forest-green-600};
+  --forest-green-500: #{$forest-green-500};
+  --forest-green-400: #{$forest-green-400};
+  --forest-green-300: #{$forest-green-300};
+  --forest-green-200: #{$forest-green-200};
+  --forest-green-100: #{$forest-green-100};
+  --forest-green-50: #{$forest-green-50};
+
+  --rusty-red-900: #{$rusty-red-900};
+  --rusty-red-800: #{$rusty-red-800};
+  --rusty-red-700: #{$rusty-red-700};
+  --rusty-red-600: #{$rusty-red-600};
+  --rusty-red-500: #{$rusty-red-500};
+  --rusty-red-400: #{$rusty-red-400};
+  --rusty-red-300: #{$rusty-red-300};
+  --rusty-red-200: #{$rusty-red-200};
+  --rusty-red-100: #{$rusty-red-100};
+  --rusty-red-50: #{$rusty-red-50};
+
+  --minion-yellow-900: #{$minion-yellow-900};
+  --minion-yellow-800: #{$minion-yellow-800};
+  --minion-yellow-700: #{$minion-yellow-700};
+  --minion-yellow-600: #{$minion-yellow-600};
+  --minion-yellow-500: #{$minion-yellow-500};
+  --minion-yellow-400: #{$minion-yellow-400};
+  --minion-yellow-300: #{$minion-yellow-300};
+  --minion-yellow-200: #{$minion-yellow-200};
+  --minion-yellow-100: #{$minion-yellow-100};
+  --minion-yellow-50: #{$minion-yellow-50};
+
+  --amethyst-blue-900: #{$amethyst-blue-900};
+  --amethyst-blue-800: #{$amethyst-blue-800};
+  --amethyst-blue-700: #{$amethyst-blue-700};
+  --amethyst-blue-600: #{$amethyst-blue-600};
+  --amethyst-blue-500: #{$amethyst-blue-500};
+  --amethyst-blue-400: #{$amethyst-blue-400};
+  --amethyst-blue-300: #{$amethyst-blue-300};
+  --amethyst-blue-200: #{$amethyst-blue-200};
+  --amethyst-blue-100: #{$amethyst-blue-100};
+  --amethyst-blue-50: #{$amethyst-blue-50};
+
+  --primary: var(--abyss-blue-800);
+  --secondary: var(--ocean-blue-800);
+  --warn: #ff3f80;
+  --cable: var(--emerald-green-300);
+  --wet: var(--picotee-blue-300);
+  --dry: var(--copper-red-800);
+  --hardware: var(--android-green-600);
+  --dashboard: #9a7b8d;
+  --price-cost: var(--abyss-blue-200);
+  --discount: #a46ee9;
+
+  --success: var(--emerald-green-700);
+  --danger: var(--rusty-red-700);
+  --warning: var(--minion-yellow-700);
+  --information: var(--amethyst-blue-300);
+
+  --primary-900: var(--abyss-blue-900);
+  --primary-800: var(--abyss-blue-800);
+  --primary-700: var(--abyss-blue-700);
+  --primary-600: var(--abyss-blue-600);
+  --primary-500: var(--abyss-blue-500);
+  --primary-400: var(--abyss-blue-400);
+  --primary-300: var(--abyss-blue-300);
+  --primary-200: var(--abyss-blue-200);
+  --primary-100: var(--abyss-blue-100);
+  --primary-50: var(--abyss-blue-50);
+
+  --secondary-900: var(--ocean-blue-900);
+  --secondary-800: var(--ocean-blue-800);
+  --secondary-700: var(--ocean-blue-700);
+  --secondary-600: var(--ocean-blue-600);
+  --secondary-500: var(--ocean-blue-500);
+  --secondary-400: var(--ocean-blue-400);
+  --secondary-300: var(--ocean-blue-300);
+  --secondary-200: var(--ocean-blue-200);
+  --secondary-100: var(--ocean-blue-100);
+  --secondary-50: var(--ocean-blue-50);
+}

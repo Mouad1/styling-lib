@@ -1,0 +1,16 @@
+@use "../base/variables";
+@use "../base/typography" as typography;
+@use "../utils/functions" as f;
+
+@mixin font-size($size) {
+  font-size: $size; // this is a pixel fallback for browsers that don’t support rem (IE8 and below)
+  font-size: f.calculateRem($size);
+}
+
+@mixin apply-typography($element) {
+  $style: map-get(typography.$typography-styles, $element);
+  font-family: typography.$font-family-base;
+  font-size: map-get($style, "font-size");
+  font-weight: map-get($style, "font-weight");
+  line-height: map-get($style, "line-height");
+}

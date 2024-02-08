@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@use "styles/base/colors";
+@use "styles/base/palettes";
+@use "styles/base/variables";
+
+@use "styles/utils/mixins" as mixins;
+
+@use "styles/base/typography" as typography;
+
+@use "styles/theme/theme";
+
+@use "styles/components/button";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: typography.$font-family-base;
+}
+
+h1 {
+  @include mixins.apply-typography("h1");
+}
+h2 {
+  @include mixins.apply-typography("h2");
+}
+h3 {
+  @include mixins.apply-typography("h3");
+}
+h4 {
+  @include mixins.apply-typography("h4");
+}
+
+//apply `body-1` and `body-2` styles to `<p>` tags or classes
+p,
+.body-1 {
+  @include mixins.apply-typography("body-1");
+}
+.body-2 {
+  @include mixins.apply-typography("body-2");
+}
+
+.caption {
+  @include mixins.apply-typography("caption");
+}
+.overline {
+  @include mixins.apply-typography("overline");
+}

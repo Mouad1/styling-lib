@@ -1,0 +1,51 @@
+@use "../utils/functions";
+
+$font-family-base: "Roboto", sans-serif;
+
+$typography-styles: (
+  h1: (
+    font-size: functions.calculateRem(96px),
+    line-height: functions.calculateRem(113px),
+    font-weight: 300,
+  ),
+  h2: (
+    font-size: functions.calculateRem(60px),
+    line-height: functions.calculateRem(70px),
+    font-weight: 300,
+  ),
+  h3: (
+    font-size: functions.calculateRem(48px),
+    line-height: functions.calculateRem(56px),
+    font-weight: 400,
+  ),
+  h4: (
+    font-size: functions.calculateRem(34px),
+    line-height: functions.calculateRem(40px),
+    font-weight: 400,
+  ),
+  h5: (
+    font-size: functions.calculateRem(24px),
+    line-height: functions.calculateRem(28px),
+    font-weight: 400,
+  ),
+  body-1: (
+    font-size: functions.calculateRem(18px),
+    line-height: functions.calculateRem(19px),
+    font-weight: 400,
+  ),
+  body-2: (
+    font-size: functions.calculateRem(16px),
+    line-height: functions.calculateRem(19px),
+    font-weight: 400,
+  ),
+  caption: (
+    font-size: functions.calculateRem(12px),
+    line-height: functions.calculateRem(14px),
+    font-weight: 400,
+  ),
+  overline: (
+    font-size: functions.calculateRem(12px),
+    line-height: functions.calculateRem(14px),
+    font-weight: 400,
+  ),
+);

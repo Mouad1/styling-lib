@@ -1,0 +1,94 @@
+@use "./colors";
+
+$padding-main: 20px;
+
+$grid-gutter-xxs: 4px;
+$grid-gutter-xs: 10px;
+$grid-gutter-s: 16px;
+$grid-gutter-m: 24px;
+$grid-gutter-l: 36px;
+$grid-gutter-xl: 48px;
+$grid-gutter-exchange-rates: 20px;
+
+$button-padding-left-right: 6px;
+$button-padding-top-bottom: 12px;
+$button-font-size: 14px;
+
+$font-xxs: 10px;
+$font-xs: 12px;
+$font-s: 16px;
+$font-m: 22px;
+$font-l: 28px;
+$font-xl: 32px;
+$font-xxl: 34px;
+$font-kpi-value: 16px;
+$font-kpi-name: 14px;
+$font-kpi-armoring-overview: 14px;
+$font-header-expansion-panel: 18px;
+$font-header-exchange-rates: 18px;
+$font-card-project-price-list: 15px;
+
+$border-radius-xs: 4px;
+$border-radius-s: 8px;
+$border-radius-m: 12px;
+$border-radius-xl: 25px;
+
+$box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+
+$transition-duration-slow: 500ms;
+$transition-duration-default: 400ms;
+$transition-duration-fast: 300ms;
+$transition-curve: cubic-bezier(0.25, 0.8, 0.25, 1);
+
+$side-panel-size-s: 450px;
+$side-panel-size-m: 600px;
+$side-panel-size-l: 1200px;
+
+$main-header-height: 52px;
+$krkn-logo-size: 36px;
+
+$navigation-collapsed-width: 60px;
+$navigation-expanded-width: 18rem;
+$navigation-spacing: 12px;
+$navigation-icon-size: 22px;
+$navigation-item-width: $navigation-collapsed-width;
+$navigation-item-height: 54px;
+
+$view-header-height: 46px;
+$view-section-header-height: 40px;
+
+$currency-color: #a34ee7;
+$switch-ps-color: rgb(154 128 195 / 50%);
+$placeholder-color: rgba(0, 0, 0, 0.6);
+$expand-button-size: 24px;
+
+$button-new-system-height: 36px;
+$button-new-system-width: 215px;
+
+$project-breadcrumb-value-height: 20px;
+$font-kpi-with-icon: 18px;
+
+$segment-overview-card-width: 400px;
+
+$cost-color: #f2e6f0;
+$price-color: #f6e2cd;
+$calculated-color: rgba(colors.$secondary-700, 0.1);
+
+$min-width-dropdown: 250px;
+
+$main-backgound-color: var(--gray-50);
+$side-panel-background-color: var(--gray-50);
+
+$input-table-td-background-color: #369fb41a;
+$input-table-td-int-background-color: #369fb433;
+$grid-border-color: var(--gray-400);
+$mcp-grid-border-color: var(--gray-300);
+$btn-expand-collapse-color: var(--secondary-800);
+
+$eur-color: rgba(colors.$cable, 0.1);
+$usd-color: rgba(colors.$cable, 0.25);
+$gbp-color: rgba(colors.$cable, 0.4);
+
+$segment-card-padding: 10px;
+$segment-card-border-left: 4px solid var(--secondary-800);
+$segment-card-value-font-size: 14px;

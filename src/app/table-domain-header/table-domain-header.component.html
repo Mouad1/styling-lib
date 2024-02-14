@@ -1,0 +1,38 @@
+<ng-container *ngIf="basicBrowsers">
+  <p-table [value]="basicBrowsers">
+    <ng-template pTemplate="header">
+      <tr>
+        <th rowspan="3">Browser</th>
+        <th colspan="4">Details</th>
+      </tr>
+      <tr>
+        <th colspan="2">Environment</th>
+        <th colspan="2">Performance</th>
+      </tr>
+      <tr>
+        <th>Engine</th>
+        <th>Platform</th>
+        <th>Rating</th>
+        <th>Grade</th>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-rowData>
+      <tr>
+        <td>{{ rowData.browser }}</td>
+        <td>{{ rowData.engine }}</td>
+        <td>{{ rowData.platform }}</td>
+        <td>{{ rowData.rating }}</td>
+        <td>{{ rowData.grade }}</td>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="footer">
+      <tr>
+        <td colspan="5">
+          *Please note that Chrome browser details not included
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</ng-container>

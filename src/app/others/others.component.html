@@ -1,0 +1,125 @@
+<div style="margin: 1rem">
+  <span>
+    This element acts as an interactive control to show the overlay content. The
+    overlay panel is displayed when the user hovers over the trigger
+    element.</span
+  >
+</div>
+
+<div class="card flex justify-content-center" style="padding: 2rem">
+  <span> Trigger Element: button on mouseover </span>
+
+  <p-overlayPanel #op class="p-overlaypanel">
+    <ng-template pTemplate="content">
+      <span class="p-overlaypanel__title">Title here</span>
+      <div class="p-overlaypanel-content">
+        <div class="__item">formula here</div>
+        <div class="separator"></div>
+        <div class="__item">
+          <span>Attribute:</span>
+          <span class="--bold">Value</span>
+        </div>
+        <div class="__item">
+          <span>Attribute:</span>
+          <span class="--bold">Value</span>
+        </div>
+      </div>
+    </ng-template>
+  </p-overlayPanel>
+  <button
+    mat-button
+    class="--accent"
+    (mouseover)="op.toggle($event)"
+    icon="pi pi-image"
+  >
+    hover here
+  </button>
+</div>
+
+<!-- ------------------------------------------------------------------------------------ -->
+
+<div style="padding: 2rem; display: flex">
+  <span> Trigger Element: A span (or p) element on mouseover: </span>
+
+  <p-overlayPanel #op2 class="p-overlaypanel" (mouseleave)="op2.hide()">
+    <ng-template pTemplate="content">
+      <span class="p-overlaypanel__title">Title here</span>
+      <div class="p-overlaypanel-content">
+        <div class="__item">formula here</div>
+        <div class="separator"></div>
+        <div class="__item">
+          <span>Attribute:</span>
+          <span class="--bold">Value</span>
+        </div>
+        <div class="__item">
+          <span>Attribute:</span>
+          <span class="--bold">Value</span>
+        </div>
+      </div>
+    </ng-template>
+  </p-overlayPanel>
+  <span
+    (mouseover)="op2.toggle($event)"
+    class="trigger"
+    (mouseleave)="op2.hide()"
+    style="cursor: pointer; background-color: whitesmoke"
+  >
+    Hover here 2
+  </span>
+</div>
+<!-- ------------------------------------------------------------------------------------ -->
+
+<div style="padding: 2rem; display: flex">
+  <span> Trigger Element: A span (or p) element on mouseover: </span>
+  <p-overlayPanel #op3 class="p-overlaypanel" (mouseleave)="op3.hide()">
+    <ng-template pTemplate="content">
+      <span class="p-overlaypanel__title">Title here</span>
+      <div class="p-overlaypanel-content">
+        <div class="__item">
+          <span class="--bg-euro">Value£</span>
+          <span class="--bg-dollar">Value$</span>
+        </div>
+      </div>
+    </ng-template>
+  </p-overlayPanel>
+  <span
+    (mouseover)="op3.toggle($event)"
+    class="trigger"
+    (click)="op3.hide()"
+    style="cursor: pointer; background-color: whitesmoke"
+  >
+    Hover here 3
+  </span>
+</div>
+
+<!-- ------------------------------------------------------------------------------------ -->
+
+<div style="padding: 2rem; display: flex">
+  <span> Trigger Element: A span (or p) element on mouseover with icon : </span>
+
+  <p-overlayPanel #op4 class="p-overlaypanel" (mouseleave)="op4.hide()">
+    <ng-template pTemplate="content">
+      <span class="p-overlaypanel__title">Title here</span>
+      <div class="p-overlaypanel-content">
+        <div class="__item">
+          <span>Attribute:</span>
+          <span class="--bold">
+            <i class="icon-class-here"></i>
+          </span>
+        </div>
+        <div class="__item">
+          <span>Attribute:</span>
+          <span class="--bold">Value</span>
+        </div>
+      </div>
+    </ng-template>
+  </p-overlayPanel>
+  <span
+    (mouseover)="op4.toggle($event)"
+    class="trigger"
+    (mouseleave)="op4.hide()"
+    style="cursor: pointer; background-color: whitesmoke"
+  >
+    Hover here 4
+  </span>
+</div>

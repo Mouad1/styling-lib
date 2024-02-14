@@ -48,3 +48,8 @@ $button-typography: mat.define-typography-config(
 );
 
 @include mat.typography-hierarchy($button-typography);
+
+mat-icon {
+  height: 16px;
+  width: 16px;
+}

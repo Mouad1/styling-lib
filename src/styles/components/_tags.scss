@@ -1,0 +1,80 @@
+@use "../base/variables";
+@use "../base/colors";
+@use "../utils/mixins";
+@use "../utils/functions";
+
+.tag {
+  @include mixins.font-size(12px);
+  display: inline-flex;
+  padding: functions.calculateRem(4px) functions.calculateRem(10px);
+  align-items: center;
+  color: var(--white);
+  background-color: var(--primary-600);
+  text-align: center;
+  border-radius: functions.calculateRem(24px);
+  margin: functions.calculateRem(4px);
+  font-weight: 400; //bold;
+  text-transform: capitalize;
+  gap: functions.calculateRem(10px);
+  letter-spacing: functions.calculateRem(0.048px);
+
+  &.--in-progress {
+    background-color: #e7e06e;
+    color: #d37006;
+  }
+  &.--submitted {
+    background-color: #d296ee;
+    color: #68303c;
+  }
+  &.--canceled {
+    background-color: var(--rusty-red-100);
+    color: var(--rusty-red-900);
+  }
+  &.--upgrade {
+    background-color: #f8bd4c;
+    color: #8b5d03;
+  }
+  &.--cif {
+    background-color: var(--android-green-300);
+    color: var(--android-green-900);
+  }
+
+  &.--imported {
+    background-color: var(--minion-yellow-100);
+    color: var(--minion-yellow-900);
+  }
+  &.--project {
+    background-color: #c8adc0;
+    color: #2d0036;
+  }
+  &.--global {
+    background-color: var(--secondary-100);
+    color: var(--secondary-900);
+  }
+
+  &.--cable {
+    background-color: var(--emerald-green-100);
+    color: var(--emerald-green-800);
+  }
+  &.--wet {
+    background-color: var(--picotee-blue-100);
+    color: var(--picotee-blue-800);
+  }
+  &.--land {
+    background-color: var(--copper-red-100);
+    color: var(--dry);
+  }
+  &.--marine {
+    background-color: var(--abyss-blue-100);
+    color: var(--abyss-blue-900);
+  }
+
+  &.--ok {
+    background-color: var(--forest-green-100);
+    color: var(--forest-green-900);
+  }
+  &.--nok {
+    background-color: var(--rusty-red-200);
+    color: var(--rusty-red-900);
+  }
+}

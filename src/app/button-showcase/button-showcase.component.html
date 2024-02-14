@@ -2,97 +2,103 @@
   <h3>Primary Buttons</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px">
     <br />
-    <button mat-button class="primary">Primary</button>
-    <button mat-raised-button class="primary">Primary Raised</button>
-    <button mat-stroked-button class="primary">Primary Stroked</button>
-    <button mat-flat-button class="primary">Primary Flat</button>
-    <button mat-button class="rounded">Rounded</button>
-    <button mat-button class="primary rounded">Primary Rounded</button>
-    <button mat-raised-button class="primary rounded">
+    <button mat-button class="--primary">Primary</button>
+    <button mat-raised-button class="--primary">Primary Raised</button>
+    <button mat-stroked-button class="--primary">Primary Stroked</button>
+    <button mat-flat-button class="--primary">Primary Flat</button>
+    <button mat-button class="--rounded">Rounded</button>
+    <button mat-button class="--primary --rounded">Primary Rounded</button>
+    <button mat-raised-button class="--primary --rounded">
       Primary Raised Rounded
     </button>
-    <button mat-button class="primary">
+    <button mat-button class="--primary">
       <mat-icon>face</mat-icon> Primary
     </button>
-    <button mat-raised-button class="primary">
+    <button mat-raised-button class="--primary">
       <mat-icon>face</mat-icon> Primary
     </button>
-    <button mat-raised-button class="primary rounded">
+    <button mat-raised-button class="--primary --rounded">
       <mat-icon>favorite</mat-icon> Rounded Primary
     </button>
-    <button mat-button class="primary rounded">
+    <button mat-button class="--primary --rounded">
       <mat-icon>favorite</mat-icon> Rounded Primary
     </button>
-    <button mat-raised-button class="primary uppercase">
+    <button mat-raised-button class="--primary --uppercase">
       <mat-icon>visibility</mat-icon> Uppercase Primary
     </button>
-    <button mat-button class="primary uppercase">
+    <button mat-button class="--primary --uppercase">
       <mat-icon>visibility</mat-icon> Uppercase Primary
     </button>
   </div>
 
   <h3>Accent Buttons</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px">
-    <button mat-button class="accent">Accent</button>
-    <button mat-raised-button class="accent">Accent Raised</button>
-    <button mat-stroked-button class="accent">Accent Stroked</button>
-    <button mat-flat-button class="accent">Accent Flat</button>
-    <button mat-raised-button class="accent">
+    <button mat-button class="--accent">Accent</button>
+    <button mat-raised-button class="--accent">Accent Raised</button>
+    <button mat-stroked-button class="--accent">Accent Stroked</button>
+    <button mat-flat-button class="--accent">Accent Flat</button>
+    <button mat-raised-button class="--accent">
       <mat-icon>build</mat-icon> Accent
     </button>
-    <button mat-button class="accent"><mat-icon>build</mat-icon> Accent</button>
+    <button mat-button class="--accent">
+      <mat-icon>build</mat-icon> Accent
+    </button>
   </div>
 
   <h3>Warning Buttons</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px">
-    <button mat-button class="warn">Warn</button>
-    <button mat-raised-button class="warn">Warn Raised</button>
-    <button mat-stroked-button class="warn">Warn Stroked</button>
-    <button mat-flat-button class="warn">Warn Flat</button>
-    <button mat-raised-button class="warn underlined">
+    <button mat-button class="--warn">Warn</button>
+    <button mat-raised-button class="--warn">Warn Raised</button>
+    <button mat-stroked-button class="--warn">Warn Stroked</button>
+    <button mat-flat-button class="--warn">Warn Flat</button>
+    <button mat-raised-button class="--warn --underlined">
       <mat-icon>help_outline</mat-icon> Underlined Warn
     </button>
-    <button mat-button class="warn underlined">
+    <button mat-button class="--warn --underlined">
       <mat-icon>help_outline</mat-icon> Underlined Warn
     </button>
-    <button mat-raised-button class="warn">
+    <button mat-raised-button class="--warn">
       <mat-icon>warning</mat-icon> Warn
     </button>
-    <button mat-button class="warn"><mat-icon>warning</mat-icon> Warn</button>
+    <button mat-button class="--warn"><mat-icon>warning</mat-icon> Warn</button>
   </div>
 
   <h3>Special Styles</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px">
-    <button mat-button class="warn underlined">Underlined Warn</button>
-    <button mat-raised-button class="warn underlined">
+    <button mat-button class="--warn --underlined">Underlined Warn</button>
+    <button mat-raised-button class="--warn --underlined">
       Underlined Raised Warn
     </button>
-    <button mat-button class="primary uppercase">Primary Uppercase</button>
-    <button mat-raised-button class="primary uppercase">
+    <button mat-button class="--primary --uppercase">Primary Uppercase</button>
+    <button mat-raised-button class="--primary --uppercase">
       Primary Raised Uppercase
     </button>
   </div>
   <h3>Disabled Buttons</h3>
 
   <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px">
-    <button mat-button class="primary" disabled>Primary Disabled</button>
-    <button mat-raised-button class="accent" disabled>
+    <button mat-button class="--primary" disabled>Primary Disabled</button>
+    <button mat-raised-button class="--accent" disabled>
       Accent Raised Disabled
     </button>
 
-    <button mat-stroked-button class="warn" disabled>
+    <button mat-stroked-button class="--warn" disabled>
       Warn Stroked Disabled
     </button>
-    <button mat-flat-button class="primary rounded" disabled>
+    <button mat-flat-button class="--primary --rounded" disabled>
       Primary Rounded Flat Disabled
     </button>
-    <button mat-raised-button class="primary" disabled>
+    <button mat-raised-button class="--primary" disabled>
       <mat-icon>lock</mat-icon> raised Disabled
     </button>
-    <button mat-button class="primary" disabled>
+    <button mat-button class="--primary" disabled>
       <mat-icon>lock</mat-icon> Disabled
     </button>
   </div>
 </div>
 
 <div></div>
+
+<button mat-stroked-button class="--primary --rounded --underlined">
+  --primary counded --underlined
+</button>

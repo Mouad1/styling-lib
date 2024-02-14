@@ -1,0 +1,18 @@
+<div class="icon-grid">
+  <div *ngFor="let icon of icons" class="icon-container">
+    <mat-icon svgIcon="{{ icon }}"></mat-icon>
+    <span>{{ icon }}</span>
+  </div>
+</div>
+<div>-------------------------------------------------</div>
+<div class="icon-grid">
+  <div class="icon-container">
+    <mat-icon
+      IconStyle
+      [size]="'30px'"
+      [color]="'green'"
+      svgIcon="krkn-menu"
+    ></mat-icon>
+    <span>30px,green</span>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="17.5" y1="9.16431" x2="6.50001" y2="9.16431" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="17.5" y1="11.8191" x2="6.50001" y2="11.8191" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="17.5" y1="14.4748" x2="6.50001" y2="14.4748" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="8.6" cy="9.2" rx="0.599999" ry="1.2" fill="white"/>
+<ellipse cx="11.4008" cy="9.2" rx="0.599999" ry="1.2" fill="white"/>
+<ellipse cx="11.4008" cy="14.4654" rx="0.599999" ry="1.2" fill="white"/>
+<ellipse cx="8.6" cy="14.4654" rx="0.599999" ry="1.2" fill="white"/>
+<ellipse cx="10.1996" cy="11.8327" rx="0.6" ry="1.2" fill="white"/>
+<ellipse cx="13.7992" cy="11.8327" rx="0.6" ry="1.2" fill="white"/>
+<ellipse cx="16.6" cy="11.8327" rx="0.6" ry="1.2" fill="white"/>
+<path d="M23.5 12C23.5 18.3513 18.3513 23.5 12 23.5C5.64873 23.5 0.5 18.3513 0.5 12C0.5 5.64873 5.64873 0.5 12 0.5C18.3513 0.5 23.5 5.64873 23.5 12Z" stroke="white"/>
+<path d="M12.0008 23.2008C18.1864 23.2008 23.2008 18.1864 23.2008 12.0008C23.2008 5.81519 18.1864 0.800781 12.0008 0.800781C5.81519 0.800781 0.800781 5.81519 0.800781 12.0008C0.800781 18.1864 5.81519 23.2008 12.0008 23.2008Z" stroke="white"/>
+</svg>

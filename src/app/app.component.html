@@ -1,5 +1,15 @@
-<h1>Button Showcase</h1>
-<app-button-showcase></app-button-showcase>
+<div style="display: flex; justify-content: flex-start">
+  <button mat-button (click)="navigate('/button-showcase')" class="--primary">
+    Button Showcase
+  </button>
+  <button mat-button (click)="navigate('/typography')">Typography</button>
+  <button mat-button (click)="navigate('/tags')" class="--primary">Tags</button>
+  <button mat-button (click)="navigate('/icons')" class="--accent">
+    icons
+  </button>
+  <button mat-button (click)="navigate('/others')" class="--primary">
+    Others
+  </button>
+</div>
 
-<h1>Typography</h1>
-<app-typography></app-typography>
+<router-outlet></router-outlet>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.325" height="21.883" viewBox="0 0 40.325 21.883">
+  <defs>
+    <style>
+      .cls-menu {
+        fill: currentColor;
+        stroke: currentColor;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_105" data-name="Groupe 105" transform="translate(1.5 1.5)">
+    <path id="Tracé_675" data-name="Tracé 675" class="cls-menu" d="M0,0H18.661" transform="translate(0.001 0)"/>
+    <line id="Ligne_440" data-name="Ligne 440" class="cls-menu" x1="37.324" transform="translate(0 9.441)"/>
+    <line id="Ligne_441" data-name="Ligne 441" class="cls-menu" x2="18.664" transform="translate(18.661 18.883)"/>
+  </g>
+</svg>

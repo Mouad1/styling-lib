@@ -9,47 +9,43 @@
     &[mat-stroked-button],
     &[mat-flat-button] {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       padding: 10px;
       gap: 6px;
       border: 1.5px solid transparent;
-      // transition: all 0.3s ease; // Smooth transition for hover effects
-      &.uppercase {
+      border-radius: 0px;
+      &.--uppercase {
         text-transform: uppercase;
       }
 
-      // Modifiers for button types
-
-      &.primary,
-      &.accent,
-      &.warn {
-        transition: color 0.3s ease, border-color 0.3s ease; // Smooth transitions for color and border
+      &.--primary,
+      &.--accent,
+      &.--warn {
+        transition: color 0.3s ease, border-color 0.3s ease;
       }
-      &.primary {
+      &.--primary {
         color: var(--ocean-blue-600);
         border-color: var(--ocean-blue-600);
       }
 
-      &.accent {
+      &.--accent {
         color: var(--accent-text);
         border-color: transparent;
       }
 
-      &.warn {
+      &.--warn {
         color: var(--warn);
         border-color: transparent;
       }
 
-      // Shape modifiers
-      &.rounded {
+      &.--rounded {
         border-radius: 20px;
       }
 
-      &.underlined {
+      &.--underlined {
         border-bottom: 1px solid var(--warn);
-        border-radius: 0px;
       }
 
       &:hover {
